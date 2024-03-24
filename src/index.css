@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply md:pt-[40px] md:px-[45px] lg:pt-[1vw] lg:px-[2vw] max-w-[87vw] sm:max-w-screen-sm sm:px-[15px] md:max-w-full mx-auto;
+}
+
+.nav-hover {
+  @apply hover:border-b hover:border-[#F5AD0D];
+}
+
+li {
+  @apply text-[18px] list-none cursor-pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
